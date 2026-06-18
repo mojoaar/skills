@@ -1,0 +1,35 @@
+{
+  "template": "indoor",
+  "output_path": "/Users/mojoaar/AI/skills/new-jysk-pptx/assets/sample_json_test.pptx",
+  "slides": [
+    {
+      "type": "title",
+      "title": "ServiceNow Project Update",
+      "subtitle": "JYSK ESM Initiative"
+    },
+    {
+      "type": "agenda",
+      "title": "Today's Agenda",
+      "items": [
+        "1. Current Status & Achievements",
+        "2. Key Challenges & Blockers",
+        "3. Roadmap & Next Steps"
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "Current Status",
+      "body": [
+        "Core ITOM module deployed in production",
+        "Incident and Problem management active",
+        "  - Target adoption: 95% of teams",
+        "  - Current adoption: 88% as of June"
+      ]
+    },
+    {
+      "type": "breaker",
+      "title": "Key Challenges",
+      "subtitle": "And How We Overcome Them"
+    }
+  ]
+}

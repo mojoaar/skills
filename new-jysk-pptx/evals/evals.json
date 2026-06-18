@@ -1,0 +1,17 @@
+{
+  "skill_name": "new-jysk-pptx",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Create a 3-slide presentation using the JYSK Indoor template about the upcoming 'CISO Security Awareness Workshop'. The slides should include a Title page with subtitle 'Protecting JYSK Data', an Agenda slide listing 3 core topics (Phishing, Password Hygiene, Secure Desks), and a standard content slide on 'Phishing' with at least 3 bullet points, including some nested sub-points. Save the output to workshop.pptx.",
+      "expected_output": "A JYSK-branded 3-slide presentation (workshop.pptx) with a Title page, Agenda page with 40pt Verdana title, and a Standard content slide with nested Verdana bullet points in dark grey (#565655).",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "Generate a JYSK budget presentation using the JYSK Outdoor template. The title must be 'FY27 Server Operations Budget Proposal' and the subtitle 'IT Server Infrastructure'. It needs an Agenda slide listing the topics, a standard slide titled 'Hardware Refresh Scope' with nested bullet lists detailing what servers will be replaced (e.g., 14 servers in Brabrand, 8 servers in DC, targeting Q3), and a section breaker titled 'Expected Cost Reductions'. Save the output to budget_proposal.pptx.",
+      "expected_output": "A JYSK-branded budget proposal presentation (budget_proposal.pptx) using the Outdoor template with a Title slide, Agenda, a Standard content slide with nested indents, and a Section Breaker slide.",
+      "files": []
+    }
+  ]
+}
