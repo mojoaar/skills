@@ -36,11 +36,20 @@ When an intake request is parsed, the skill identifies tech requirements and gen
 
 ## Workflow: How to Process JYSK Order Intakes
 
-### 1. Gather/Extract Raw Intake Data
-Read the user's raw email, project brief, or slack message.
+### 1. Proactively Interview the User (Mandatory First Step)
+To ensure the high-fidelity validation expected by JYSK IT Operations, **DO NOT guess, make up, or speculate** on any Opportunity Space placeholders. Instead, **ALWAYS conduct a short, targeted interview with the user** to extract exact real-world facts for the Opportunity Space fields.
+
+Ask brief questions to collect:
+1.  **Problem Statement**: What is broken, missing, or suboptimal? (Written as impact, using the requester's language).
+2.  **Root Cause**: What is the underlying cause, not just the symptom?
+3.  **Affected Stakeholders**: Who/which teams experience this pain?
+4.  **Business Impact**: What is the cost of inaction (hours lost, frequency, revenue risk, operational dependency)?
+5.  **In Scope / Out of Scope**: What is explicitly included vs. excluded?
+6.  **Current Workarounds**: How are they coping today?
+7.  **Departments Involved**: Heuristically scan the intake and ask: *"Based on your description, I suggest involving [IT Client / IT Network / IT Server / Container Platform / IT Stores]. Does this department mapping look correct?"*
 
 ### 2. Save and Run the Automatic Analyzer Script
-Save the raw description to a local text file and run the Python script:
+Once the user provides the answers, save the compiled descriptions to a local text file and run the Python script:
 
 ```bash
 python3 /Users/mojoaar/AI/skills/new-jysk-order-intake/scripts/generate_intake.py \

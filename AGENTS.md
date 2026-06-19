@@ -44,6 +44,7 @@ A specialized skill for scaffolding new NextJS projects.
 This skill parses and structures raw JYSK IT Operations order intake requests, formats the official **Opportunity Space** template for Jira, and maps cross-departmental linked tasks.
 
 ### Crucial Execution Facts
+*   **Interactive Interview First**: **DO NOT speculate or guess** the Opportunity Space details if not explicitly provided. **Proactively interview the user** with targeted questions to fill out the template fields before running the generator.
 *   **The Intake Gates**:
     *   Review Stage requires signing off on the **Opportunity Space** before moving to Analysis.
     *   Analysis Stage requires signing off on the **Solution Space** before moving to Backlog.
