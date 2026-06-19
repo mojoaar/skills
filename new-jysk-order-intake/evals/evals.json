@@ -1,0 +1,17 @@
+{
+  "skill_name": "new-jysk-order-intake",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Process the following raw order intake request using the JYSK Order Intake skill and save the compiled Jira ready output to norway_pax.md:\n\n'We need to roll out a security update to all PAX payment terminals in JYSK stores in Norway. This also requires updating the store backoffice virtual machine hosting the payment reconciliation database. We need this ready before the holiday season.'",
+      "expected_output": "A structured Markdown output (norway_pax.md) showing a Feature ticket with a pre-populated Opportunity Space template, and linked tasks assigned to IT Stores (due to payment terminals), IT Server (due to backoffice VM/database), and IT Network (due to store network connections).",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "Process the following raw order intake request using the JYSK Order Intake skill and save the compiled Jira ready output to printer_microservice.md:\n\n'The client team wants to deploy a new central printer spooler microservice running on our OpenShift Container Platform. This will connect to local Windows 11 client laptops via SCCM/Intune. We'll need a firewall port opened from the cluster to the corporate client subnets.'",
+      "expected_output": "A structured Markdown output (printer_microservice.md) showing a Feature ticket with a pre-populated Opportunity Space template, and linked tasks assigned to Container Platform (due to OpenShift), IT Client (due to Windows 11 client laptops), and IT Network (due to firewall ports).",
+      "files": []
+    }
+  ]
+}
